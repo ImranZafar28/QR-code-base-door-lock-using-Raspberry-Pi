@@ -1,0 +1,19 @@
+To setup SQL MariaDB in Raspberry Pi, run these commands in terminal:
+
+1) sudo apt-get update
+(install updates)
+2) sudp apt-get install mariadb-server
+(Install database)
+3) sudo mysql_secure_installation
+(set password)
+(select "yes" on all options
+4) sudo mysql -u root -p
+(select any password)
+5) CREATE DATABASE mydatabase;
+6) CREATE USER 'imran'@'localhost' IDENTIFIED BY '12345';
+7) GRANT ALL PRIVILEGES ON mydatabase.* TO 'imran'@'localhost';
+8) USE mydatabase;
+9) CREATE TABLE students (id INT(11));
+10) SELECT * FROM students;
+(to see all records from Table)
+11) DELETE FROM students WHERE (condition);
