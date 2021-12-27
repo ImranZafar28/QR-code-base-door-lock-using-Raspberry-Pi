@@ -1,9 +1,3 @@
-# Muhammad Imran Zafar
-# Ammarah Kanwal
-# Fareha Akram
-# Aamash Khan
-# Anwar Siddiqui
-
 from PIL import Image
 from pyzbar.pyzbar import decode
 from picamera import PiCamera

@@ -1,9 +1,3 @@
-# Muhammad Imran Zafar
-# Ammarah Kanwal
-# Fareha Akram
-# Aamash Khan
-# Anwar Siddiqui
-
 import qrcode
 from tkinter import *
 import pymysql
